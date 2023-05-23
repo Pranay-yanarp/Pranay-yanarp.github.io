@@ -1,0 +1,170 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.intro img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-text h3 {
+  margin: 0 0 10px 0;
+}
+
+.intro-text p {
+  margin: 0;
+  font-size: 20px;
+}
+
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  /* background-color: #333; set the background color to dark gray */
+  background-color: #000000;
+  padding: 35px 70px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 40px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#about-me {
+  color: #fff;
+}
+
+#projects {
+  background-color: #f2f2f2; 
+  padding: 5px 5px;
+}
+
+#python_projects {
+  background-color: #f2f2f2; 
+  padding: 10px 25px;
+}
+
+
+#bi_projects {
+  background-color: #f2f2f2; 
+  padding: 10px 25px;
+}
+
+#r_projects {
+  background-color: #f2f2f2; 
+  padding: 10px 25px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph {
+  flex-basis: 48%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+}
+
+#scroll-to-top {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 40px;
+      height: 40px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 20px;
+      text-align: center;
+    }
