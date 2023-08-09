@@ -121,7 +121,7 @@ footer {
 
 #projects {
   background-color: #f2f2f2; 
-  padding: 5px 5px;
+  padding: 5px 25px;
 }
 
 #python_projects {
@@ -140,6 +140,14 @@ footer {
   padding: 10px 25px;
 }
 
+.multiple-links {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+}
+.multiple-links h3{
+  font-size: 20px;
+  margin: 0 0 0 0;
+}
 
 .container {
   display: flex;
