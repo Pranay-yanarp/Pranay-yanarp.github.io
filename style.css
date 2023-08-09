@@ -140,11 +140,17 @@ footer {
   padding: 10px 25px;
 }
 
+
 .multiple-links {
   display: flex;
+  align-items: center; /* Vertically center the content */
   gap: 20px; /* Adjust the gap as needed */
 }
 
+.multiple-links h3,
+.multiple-links a {
+  margin: 0; /* Reset margin for h3 and links */
+}
 .container {
   display: flex;
   flex-direction: row;
