@@ -144,10 +144,6 @@ footer {
   display: flex;
   gap: 20px; /* Adjust the gap as needed */
 }
-.multiple-links h3{
-  font-size: 20px;
-  margin: 0 0 0 0;
-}
 
 .container {
   display: flex;
