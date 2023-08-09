@@ -70,7 +70,7 @@ nav a {
 
 main {
   /* background-color: #333; set the background color to dark gray */
-  background-color: #000000;
+  background-color: #234E70;
   padding: 35px 70px;
 }
 
@@ -120,23 +120,23 @@ footer {
 }
 
 #projects {
-  background-color: #f2f2f2; 
+  background-color: #FBF8BE; 
   padding: 5px 25px;
 }
 
 #python_projects {
-  background-color: #f2f2f2; 
+  background-color: #FBF8BE; 
   padding: 10px 25px;
 }
 
 
 #bi_projects {
-  background-color: #f2f2f2; 
+  background-color: #FBF8BE; 
   padding: 10px 25px;
 }
 
 #r_projects {
-  background-color: #f2f2f2; 
+  background-color: #FBF8BE; 
   padding: 10px 25px;
 }
 
